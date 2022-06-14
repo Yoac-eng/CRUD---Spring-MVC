@@ -17,11 +17,6 @@ Feito isso, basta rodar o projeto pela IDE, que as entidades serão feitas via S
 o projeto será inicializado pelo tomcat, podendo ser acessado pelo localhost na porta 8080
 localhost:8080
 
-*Caso queira colocar algum dado para testar as funcionalidades diretamente, rode as seguintes queries
-no banco:<br>
-INSERT INTO `regescweb`.`professor`(`nome`, `salario`, `status_professor`) VALUES ('Professor1', '5000.0', 'ATIVO');<br>
-INSERT INTO `regescweb`.`professor`(`nome`, `salario`, `status_professor`) VALUES ('Professor2', '10000.0', 'APOSENTADO');<br>
-
 <h3>Utilizando</h3>
 URLs para acesso das páginas: localhost:8080/professores || Read<br>
 localhost:8080/professores/new || Create<br>
